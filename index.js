@@ -9,9 +9,11 @@ for(let i = 0; i < dogImages.length; i++){
     dogImages[i].style.borderRadius = '50px'
 }
 
-let dogNames = document.querySelector('.dog-name')
-dogNames.style.textAlign = 'left'
+let dogNames = document.queryselectorAll('.dog-name')
+for(let i = 0; i < dogNames.length; i++){
+    dogNames[i].style.textAlign = 'left'
+}
 
-let pageFooters = document.queryselector('.footer')
+let pageFooter = document.queryselector('.footer')
 pageFooters.style.color = 'orange'
 
