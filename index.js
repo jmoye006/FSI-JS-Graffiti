@@ -14,6 +14,3 @@ for(let i = 0; i < dogNames.length; i++){
     dogNames[i].style.textAlign = 'left'
 }
 
-let pageFooter = document.queryselector('.footer')
-pageFooters.style.color = 'orange'
-
